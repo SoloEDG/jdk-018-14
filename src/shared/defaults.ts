@@ -12,7 +12,12 @@ export function createDocument(): StudioDocument {
       invert: false,
       color: true,
       background: "#101216",
+      engine: "direct",
+      scope: "zoned",
+      compare: false,
     },
+    barriers: [],
+    zones: [],
     grid: null,
     revision: 0,
   };
